@@ -1,0 +1,127 @@
+{
+  "tickets": {
+    "page": {
+      "title": "工单列表",
+      "description": "查看和管理客户提交的问题。"
+    },
+    "filters": {
+      "searchPlaceholder": "搜索标题或客户名称",
+      "labels": {
+        "search": "搜索工单",
+        "status": "工单状态",
+        "priority": "优先级",
+        "sort": "排序方式"
+      },
+      "all": {
+        "status": "全部状态",
+        "priority": "全部优先级"
+      },
+      "sort": {
+        "updated_desc": "最近更新",
+        "priority_desc": "优先级最高"
+      },
+      "updating": "正在筛选...",
+      "clear": "清除",
+      "empty": "暂无工单",
+      "noMatches": "没有匹配的工单"
+    },
+    "status": {
+      "label": "工单状态：{status}",
+      "PENDING": "待处理",
+      "IN_PROGRESS": "处理中",
+      "RESOLVED": "已解决"
+    },
+    "priority": {
+      "label": "优先级",
+      "HIGH": "高",
+      "MEDIUM": "中",
+      "LOW": "低"
+    },
+    "assignee": "负责人",
+    "create": {
+      "trigger": "新建工单",
+      "title": "新建工单",
+      "description": "填写客户问题和工单信息。",
+      "success": "工单创建成功",
+      "errors": {
+        "invalid": "请检查表单内容",
+        "failed": "创建失败，请稍后重试"
+      },
+      "validation": {
+        "titleRequired": "请输入工单标题",
+        "titleMin": "工单标题至少需要 5 个字符",
+        "companyNameRequired": "请输入公司名称",
+        "customerNameRequired": "请输入客户名称",
+        "priority": "请选择优先级",
+        "descriptionRequired": "请输入问题描述",
+        "priorityRequired": "请选择优先级",
+        "assigneeRequired": "请选择负责人"
+      },
+      "fields": {
+        "title": "工单标题",
+        "companyName": "公司名称",
+        "customerName": "客户名称",
+        "description": "问题描述",
+        "priority": "优先级",
+        "assigneeName": "负责人"
+      },
+      "submitting": "创建中...",
+      "submit": "创建工单"
+    },
+    "detail": {
+      "back": "返回工单列表",
+      "description": "查看客户问题并更新工单处理信息。",
+      "information": "工单信息",
+      "fields": {
+        "companyName": "公司名称",
+        "customerName": "客户名称",
+        "description": "问题描述",
+        "status": "工单状态",
+        "priority": "优先级",
+        "assigneeName": "负责人",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间"
+      },
+      "edit": {
+        "title": "修改工单",
+        "description": "更新工单状态、优先级和负责人。",
+        "fields": {
+          "status": "工单状态",
+          "priority": "优先级",
+          "assigneeName": "负责人",
+          "note": "本次处理备注（可选）"
+        },
+        "placeholders": {
+          "status": "请选择工单状态",
+          "priority": "请选择优先级",
+          "note": "填写本次处理情况；留空则不新增备注"
+        },
+        "validation": {
+          "ticketIdInvalid": "工单编号无效",
+          "statusRequired": "请选择工单状态",
+          "priorityRequired": "请选择优先级",
+          "assigneeRequired": "请输入负责人",
+          "noteMax": "处理备注最多 1000 个字符"
+        },
+        "errors": {
+          "invalid": "请检查修改内容",
+          "notFound": "要修改的工单不存在",
+          "failed": "保存失败，请稍后重试"
+        },
+        "success": "工单修改成功",
+        "submitting": "保存中...",
+        "submit": "保存修改"
+      },
+      "notes": {
+        "title": "处理备注",
+        "description": "查看该工单的历史处理记录。",
+        "empty": "暂无处理备注"
+      },
+      "notFound": {
+        "title": "工单不存在",
+        "description": "该工单可能已被删除，或者链接不正确。",
+        "back": "返回工单列表"
+      }
+    }
+  }
+}
